@@ -1,5 +1,4 @@
 # faster-CTPN
-very fast CTPN
 # our work
 we change the LSTM model to conv1D that more than 5 times faster than the original version.
 Thanks for WeiyangWang and Beibei Hu's help.
@@ -79,3 +78,4 @@ python ./ctpn/train_net.py
 <img src="/data/results/007.jpg" width=320 height=240 /><img src="/data/oriented_results/007.jpg" width=320 height=240 />
 <img src="/data/results/008.jpg" width=320 height=480 /><img src="/data/oriented_results/008.jpg" width=320 height=480 />
 ***
+=======
