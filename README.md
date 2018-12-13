@@ -65,8 +65,7 @@ python ./ctpn/train_net.py
 - you can modify some hyper parameters in ctpn/text.yml, or just used the parameters I set.
 - The model I provided in checkpoints is trained on GTX1070 for 50k iters.
 - If you are using cuda nms, it takes about 0.2s per iter. So it will takes about 2.5 hours to finished 50k iterations.
-***
-***
+
 ## oriented text connector
 - oriented text connector has been implemented, i's working, but still need futher improvement.
 - left figure is the result for DETECT_MODE H, right figure for DETECT_MODE O
@@ -74,3 +73,4 @@ python ./ctpn/train_net.py
 <img src="/data/results/008.jpg" width=320 height=480 /><img src="/data/oriented_results/008.jpg" width=320 height=480 />
 ***
 =======
+
