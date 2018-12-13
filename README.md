@@ -66,11 +66,6 @@ python ./ctpn/train_net.py
 - The model I provided in checkpoints is trained on GTX1070 for 50k iters.
 - If you are using cuda nms, it takes about 0.2s per iter. So it will takes about 2.5 hours to finished 50k iterations.
 ***
-# some results
-`NOTICE:` all the photos used below are collected from the internet. If it affects you, please contact me to delete them.
-<img src="/data/results/001.jpg" width=320 height=240 /><img src="/data/results/002.jpg" width=320 height=240 />
-<img src="/data/results/003.jpg" width=320 height=240 /><img src="/data/results/004.jpg" width=320 height=240 />
-<img src="/data/results/009.jpg" width=320 height=480 /><img src="/data/results/010.png" width=320 height=320 />
 ***
 ## oriented text connector
 - oriented text connector has been implemented, i's working, but still need futher improvement.
