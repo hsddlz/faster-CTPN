@@ -54,7 +54,7 @@ class VGGnet_train(Network):
         (self.feed('lstm_o').lstm_fc(512,len(anchor_scales) * 10 * 4, name='rpn_bbox_pred'))
         (self.feed('lstm_o').lstm_fc(512,len(anchor_scales) * 10 * 2,name='rpn_cls_score'))
         """
-        (self.feed('rpn_conv/3x3').conv1D(512,3,1,name='conv1d'))
+        (self.feed('rpn_conv/3x3').conv1D(512,7,1,name='conv1d'))
         (self.feed('conv1d').conv1d_fc(512,len(anchor_scales) * 10 * 4, name='rpn_bbox_pred'))
         (self.feed('conv1d').conv1d_fc(512,len(anchor_scales) * 10 * 2,name='rpn_cls_score')) 
 
