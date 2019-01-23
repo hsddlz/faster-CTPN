@@ -1,6 +1,7 @@
 # faster-CTPN
 # our work
-we change the LSTM model to conv1D that more than 5 times faster than the original version.
+we change the LSTM model to conv1D that more than 5 times faster than the original version on training base our dateset.half faster on training in ICDAR2013.
+conv1D with kernal 7 is almost same with lstm recall in ICDAR2013. 
 Thanks for WeiyangWang and Beibei Hu's help.
 
 # text-detection-ctpn
